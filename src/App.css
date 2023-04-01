@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+.main-data {
+  background-color: black;
+}
+
+.card-header{
+  background-color: rgb(241, 241, 241);
+  color: white;
+  width:317px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+.card-body-headers {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.card-head{
+  font-size: 1.50rem;
+}
+.orange{
+  background-color: orange;
+
+  
+}
+.red{
+  background-color: red;
+  
+}
+.green{
+  background-color: green;
+}
+.search-sec{
+  
+  
+  margin: 20px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search-sec-in{
+  
+  
+  width: fit-content;
+}

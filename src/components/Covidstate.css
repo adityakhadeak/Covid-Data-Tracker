@@ -1,0 +1,28 @@
+.main-heading {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.data{
+    font-size: inherit;
+    font-weight: inherit;
+}
+.container{
+    max-width: 401px;
+}
+.orangec{
+    color: orange;
+}
+.redc{
+    color: red;
+}
+.greenc{
+    color: green;
+}
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+}
